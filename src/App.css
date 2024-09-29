@@ -1,0 +1,25 @@
+:root {
+  --primary: #EC4899;
+  --white: #F8FAFC;
+  --semi_white: #E2E8F0;
+  --red: #DC2626;
+}
+
+* {
+  font-family: 'Pacifico', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url(./assets/image/bg.png);
+  background-position: center;
+  background-size: cover;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0; 
+}

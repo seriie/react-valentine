@@ -1,0 +1,16 @@
+.alert-box {
+    position: fixed;
+    top: -100px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 999999;
+    transition: top 0.4s ease;
+}
+
+.alert-box .alert-text {
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+
+.alert-box.active {
+    top: 20px; /* Move it down when active */
+}
